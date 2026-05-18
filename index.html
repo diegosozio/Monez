@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#4caf50" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Rifiuti</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="splash">
+      <div class="splash-content">♻️ Munnezz</div>
+    </div>
+    <div class="app">
+      <div class="header">
+        <h1>♻️ Munnezz</h1>
+      </div>
+
+      <div class="card highlight">
+        <h2>📌 Prossimo conferimento</h2>
+        <div id="next"></div>
+      </div>
+
+      <div class="card">
+        <div class="calendar-header">
+          <button id="prev">◀</button>
+
+          <h2 id="monthTitle"></h2>
+
+          <button id="nextMonth">▶</button>
+        </div>
+
+        <div class="weekdays">
+          <div class="weekday">Lun</div>
+          <div class="weekday">Mar</div>
+          <div class="weekday">Mer</div>
+          <div class="weekday">Gio</div>
+          <div class="weekday">Ven</div>
+          <div class="weekday">Sab</div>
+          <div class="weekday">Dom</div>
+        </div>
+
+        <div id="calendar"></div>
+      </div>
+
+      <button id="enableNotifications">🔔 Attiva notifiche</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

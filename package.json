@@ -1,0 +1,12 @@
+{
+  "name": "rifiuti-app",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://diegosozio.github.io/Munnezz",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  }
+}
