@@ -1,12 +1,12 @@
 {
   "name": "rifiuti-app",
   "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "homepage": "https://diegosozio.github.io/Munnezz",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  }
 }
