@@ -260,15 +260,6 @@ function triggerDaily() {
 /* =========================
    INIT
 ========================= */
-window.addEventListener("DOMContentLoaded", () => {
-  generateCalendar();
-  renderNext();
-  bindNavigation();
-  registerSW();
-  scheduleDailyCheck();
-
-  sendNotification("♻️ Rifiuti", "Notifiche attive correttamente");
-});
 
 window.addEventListener("DOMContentLoaded", () => {
   generateCalendar();
